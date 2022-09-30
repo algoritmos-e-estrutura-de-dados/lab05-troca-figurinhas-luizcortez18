@@ -20,9 +20,9 @@ def maximizar_troca_de_figurinhas(figurinhaMaria, figurinhaJoao, A, B):
           indj += 1
    
     if (int(A) - int(indm)) < (int(B) - int(indj)):
-        return print(f"O máximo de figurinhas:{int(A) - int(indm)}")
+        return print(f"O máximo de figurinhas para troca é:{int(A) - int(indm)}")
     else:
-        return print(f"O máximo de figurinhas:{int(B) - int(indj)}")
+        return print(f"O máximo de figurinhas para troca é:{int(B) - int(indj)}")
  
   
 
